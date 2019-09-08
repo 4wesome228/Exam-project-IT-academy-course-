@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    color: #292828e0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+}
+
+header img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+}
+
+header::after {
+    content: "";
+    background-image: -webkit-linear-gradient(45deg, #6a78d1, #00a4bd);
+    background-image: linear-gradient(45deg, #6a78d1, #00a4bd);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: -2;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.main-nav li {
+    animation: slideIn 0.5s ease forwards;
+    transform: translateX(1000%);
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.main-nav li:first-child {
+    margin-left: 0;
+}
+
+.main-nav li a {
+    color: #1289A7;
+    padding: 0 0 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a::before, .main-nav li a::after {
+    content: "";
+    display: block;
+    background: #1289A7;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.main-nav li a::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.main-nav li a::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.main-nav li a:hover::after, .main-nav li a:hover::before {
+    transform: scaleX(1);
+}
+
+@keyframes slideIn {
+    from {}
+    to {
+        transform: translateX(0);
+    }
+}
+
+.main-nav li:nth-child(1) {
+    animation-delay: 0;
+}
+
+.main-nav li:nth-child(2) {
+    animation-delay: 0.35s;
+}
+
+.main-nav li:nth-child(3) {
+    animation-delay: 0.65s;
+}
+
+.header-container {
+    padding: 10rem 0;
+}
+
+.image-content {
+    color: #fff;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.image-text {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.image-text h1 {
+    font-size: 3rem;
+}
+
+.image-text p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.wrap-content {
+    display: flex;
+    position: relative;
+    top: -3rem;
+}
+
+.contact-way {
+    width: 50%;
+    border: 1px solid #c7ecee;
+}
+
+.contact-way:first-child {
+    margin-right: 1rem;
+}
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+}
+
+.contact-info i {
+    color: #166daf;
+    font-size: 2.5rem;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info a {
+    font-size: 90%;
+    letter-spacing: .02rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    display: block;
+    background: #22a6b3;
+    padding: 0.8rem 1rem;
+    transition: .3s ease-in-out;
+}
+
+.contact-info a:hover {
+    background-color: #54a0ff;
+}
+
+.wrap h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.01rem;
+    padding-bottom: 1.2rem;
+}
+
+.restaurants-info {
+    display: flex;
+    flex: 1;
+}
+
+.restaurants-info:first-child {
+    margin-bottom: 2rem;
+}
+
+.restaurants-info:last-child {
+    flex-direction: row-reverse;
+}
+
+.restaurants-image {
+    max-width: 50%;
+}
+
+.restaurants-image img {
+    width: 100%;
+}
+
+.restaurants-address {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.restaurants-address h4 {
+    letter-spacing: 0.01rem;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+.restaurants-address p strong {
+    display: block;
+    padding: .5rem 0 .1rem 0;
+}
+
+.restaurants-address p {
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #33475b;
+    color: white;
+    padding: 0.3rem .8rem;
+}
+
+footer .border div:first-child {
+    display: inline-block;
+    width: 70px;
+}
+
+.border {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7c98b6;
+    align-items: center;
+}
+
+footer div img {
+    width: 100%;
+}
+
+.social-icons {
+    display: inline-block;
+    text-align: center;
+}
+
+.social_item {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    position: relative;
+    background: #f8f8f8;
+    border-radius: 30%;
+    box-shadow: 1px 2px 3px #696969;
+    cursor: pointer;
+}
+
+.social_item i {
+    line-height: 45px;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.social_item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.social_item:nth-child(1) {
+    color: #ee5253;
+}
+
+.social_item:nth-child(2) {
+    color: #f368e0;
+}
+
+.social_item:nth-child(3) {
+    color: #2e86de;
+}
+
+.social_item:hover i {
+    transform: scale(1.3);
+    color: #f8f8f8;
+}
+
+.social_item::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.social_item:nth-child(1)::before {
+    background: #ee5253;
+}
+
+.social_item:nth-child(2)::before {
+    background: #f368e0;
+}
+
+.social_item:nth-child(3)::before {
+    background: #2e86de;
+}
+
+.social_item:hover::before {
+    animation: social 0.8s ease-in-out;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes social {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        left: -10%;
+        top: -10%;
+    }
+}
+
+@media all and (max-width:640px) {
+    html {
+        font-size: 15px;
+    }
+    .wrap-content {
+        flex-direction: column;
+        position: static;
+    }
+    .contact-way {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .restaurants-info {
+        flex-direction: column;
+    }
+    .restaurants-image {
+        max-width: 100%;
+    }
+    .restaurants-address {
+        width: 100%;
+        text-align: left;
+        display: block;
+    }
+    .restaurants-info:last-child {
+        flex-direction: column;
+    }
+    .social_item {
+        width: 30px;
+        height: 30px;
+    }
+    .social_item i {
+        line-height: 30px;
+        font-size: 1rem;
+    }
+}

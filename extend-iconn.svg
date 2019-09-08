@@ -1,0 +1,16 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="32" width="32" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#0f0f00" id="svg_3" d="m230.915001,194.956117l25.500013,-38.407594l25.500014,38.407594l-12.750008,0l0,38.592404l-25.500011,0l0,-38.592404l-12.750008,0z" stroke-width="0" fill="#88d3ea"/>
+  <path stroke="#0f0f00" id="svg_2" d="m230.915001,194.956117l25.500013,-38.407594l25.500014,38.407594l-12.750008,0l0,38.592404l-25.500011,0l0,-38.592404l-12.750008,0z" stroke-width="0" fill="#191919"/>
+  <ellipse opacity="0.65" stroke="#000" ry="14.968746" rx="14.874997" id="svg_4" cy="15.058595" cx="15.156251" stroke-opacity="null" stroke-width="0" fill="#88d3ea"/>
+  <path stroke="#000" transform="rotate(45 21.613895416259773,8.993535995483395) " opacity="0.65" id="svg_5" d="m18.939878,8.978897l2.674018,-6.085233l2.674017,6.085233l-1.337009,0l0,6.114513l-2.674017,0l0,-6.114513l-1.337009,0z" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+  <path stroke="#000" transform="rotate(-135 9.067021369934084,21.79040908813477) " opacity="0.65" id="svg_8" d="m6.393004,21.776035l2.674018,-5.975013l2.674017,5.975013l-1.337009,0l0,6.003762l-2.674017,0l0,-6.003762l-1.337009,0z" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+ </g>
+</svg>

@@ -1,0 +1,648 @@
+@media screen and (max-width:1220px) {
+    html {
+        font-size: 19px;
+    }
+    h1 {
+        font-size: 200%;
+        letter-spacing: 0px;
+    }
+    h2 {
+        font-size: 170%;
+        word-spacing: 3.5px;
+    }
+    h3 {
+        font-size: 95%;
+        margin-bottom: 0.5rem;
+        font-weight: 400;
+    }
+    .box h3 {
+        font-size: 92%;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    .row {
+        max-width: 930px;
+        margin: 0 auto;
+        padding: 0 0.15rem;
+    }
+    section {
+        padding: 45px 0px;
+    }
+    .hero-text-box {
+        width: 927px;
+    }
+    .logo {
+        height: 85px;
+    }
+    .long-copy {
+        line-height: 150%;
+        word-spacing: 2px;
+        padding: 10px;
+        width: 82%;
+        margin-left: 9%;
+    }
+    .box>p {
+        line-height: 145%;
+        font-size: 93%;
+    }
+    .container .inner {
+        clip-path: circle(10% at 8.5% 28%);
+    }
+    .container .inner p {
+        font-size: 1.1rem;
+    }
+    .Cities-content p {
+        font-size: 95%;
+    }
+    .card {
+        width: 236px;
+        height: 314px;
+    }
+    .details p {
+        font-size: 95%;
+    }
+    .cart-btn {
+        width: 120px;
+    }
+    .sales-container {
+        width: 720px;
+    }
+    .container .inner span {
+        left: 2.2%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 185%;
+        letter-spacing: 0px;
+    }
+    h2 {
+        font-size: 160%;
+        word-spacing: 3px;
+    }
+    h3 {
+        font-size: 90%;
+    }
+    .logo {
+        height: 80px;
+    }
+    #ourcities .row h2 {
+        font-size: 155%;
+        word-spacing: 2px;
+    }
+    section {
+        padding: 40px 0px;
+    }
+    .box h3 {
+        font-size: 85%;
+        margin-bottom: 0.5rem;
+    }
+    .row {
+        max-width: 800px;
+        padding: 0 0.1rem;
+    }
+    .hero-text-box {
+        width: 798px;
+    }
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .box>p {
+        font-size: 96%;
+    }
+    .container .inner {
+        padding: 1rem 0 1rem 0.4rem;
+        clip-path: circle(10% at 8.5% 28%);
+    }
+    .container .inner p {
+        font-size: 1rem;
+    }
+    .container .inner span {
+        left: 4.2%;
+    }
+    .card {
+        width: 200px;
+        height: 264px;
+    }
+    .details p {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    h1 {
+        font-size: 170%;
+        letter-spacing: 0.5px;
+    }
+    h3 {
+        font-size: 86%;
+    }
+    #ourcities .row {
+        max-width: 750px;
+    }
+    #ourcities .row h2 {
+        font-size: 138%;
+        word-spacing: 2px;
+    }
+    section {
+        padding: 35px 0px;
+    }
+    .row {
+        max-width: 720px;
+    }
+    .hero-text-box {
+        width: 718px;
+    }
+    .box h3 {
+        font-size: 82%;
+        margin-bottom: 0.5rem;
+        font-weight: 400;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .container .inner p {
+        font-size: 0.9rem;
+    }
+    .container .inner span {
+        left: 4%;
+        top: 0px;
+    }
+    .container:nth-child(2) .inner span {
+        top: 0px;
+    }
+    .card {
+        width: 170px;
+        height: 224px;
+    }
+    .details p {
+        font-size: 83%;
+    }
+}
+
+@media all and (max-width:795px) {
+    html {
+        font-size: 19px;
+    }
+    h1 {
+        font-size: 180%;
+        letter-spacing: 0.6px;
+    }
+    h2 {
+        font-size: 175%;
+        word-spacing: 3px;
+    }
+    h3 {
+        font-size: 120%;
+    }
+    section {
+        padding: 35px 0px;
+    }
+    .row {
+        max-width: 630px;
+        padding: 0 0.05rem;
+    }
+    .features_wrap {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .logo {
+        height: 75px;
+    }
+    .main-nav li a {
+        font-size: 85%;
+    }
+    .hero-text-box {
+        width: 629px;
+    }
+    .box {
+        margin: 0;
+        width: 45%;
+    }
+    .box+.box {
+        margin: 0;
+    }
+    .box:nth-child(1), .box:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+    .box>p {
+        font-size: 100%;
+    }
+    .box h3 {
+        font-size: 110%;
+        margin-bottom: 0.5rem;
+    }
+    .app-screen {
+        width: 70%;
+    }
+    .steps-box {
+        padding-left: 3%;
+        width: 67%;
+    }
+    .container .inner {
+        margin-bottom: 0.3rem;
+        padding: 1rem 0 1rem 0.4rem;
+        clip-path: circle(11% at 8.5% 28%);
+    }
+    .container:nth-child(2) {
+        margin-left: 0.2rem;
+    }
+    .container .inner p {
+        font-size: 1.05rem;
+    }
+    .container:nth-child(2) .inner span {
+        top: 6px;
+        left: 3.8%;
+    }
+    #ourcities .row h2 {
+        font-size: 145%;
+        word-spacing: 2px;
+    }
+    #ourcities .row {
+        max-width: 640px;
+    }
+    .wrap_cities {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Cities-content h3 {
+        font-size: 115%;
+    }
+    .wrap_cities .Cities-content {
+        margin: 0;
+        width: 46%;
+    }
+    .Cities-content:nth-child(1), .Cities-content:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+    .Cities_item i {
+        font-size: 1.85rem;
+    }
+    .Cities_item p {
+        font-size: 115%;
+    }
+    .card {
+        width: 236px;
+        height: 314px;
+    }
+    .card:not(:first-child) {
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .container-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .details p {
+        font-size: 100%;
+    }
+    .row .Choose-targets {
+        display: flex;
+        justify-content: space-between;
+    }
+    .Choose-targets .goal {
+        width: 32%;
+    }
+    .Choose-targets .clicked {
+        width: 33% !important;
+    }
+    .Choose-targets .goal:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .Choose-targets .goal:last-child h3 {
+        font-size: 121%;
+    }
+    .Choose-targets .goal .button-choose {
+        width: 55%;
+    }
+    .Choose-targets .goal span, .Choose-targets .goal p {
+        font-size: 1.05rem;
+    }
+    .choice-container .choice-content {
+        width: 45%;
+    }
+    .choice-container .choice-content:last-child {
+        height: 9rem;
+    }
+    .footer_container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer_container ul {
+        margin-bottom: 1rem;
+    }
+    .footer_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_cards div:first-child {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:680px) {
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 180%;
+        letter-spacing: 0.2px;
+    }
+    h2 {
+        font-size: 158%;
+        word-spacing: 0px;
+    }
+    h3 {
+        font-size: 135%;
+    }
+    section {
+        padding: 30px 0px;
+    }
+    .row {
+        max-width: 520px;
+        padding: 0 0.05rem;
+    }
+    /*Responsive navigation*****************/
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        right: 0;
+        height: 50vh;
+        top: 13vh;
+        width: 30%;
+        opacity: .95;
+        background: #718093;
+        transform: translateX(100%);
+        border-top-left-radius: .4rem;
+        border-bottom-left-radius: .4rem;
+        transition: transform .4s ease-in;
+        z-index: 6;
+        margin-top: 0.5rem;
+    }
+    .main-nav li {
+        opacity: 0;
+        transform: unset;
+        animation: unset;
+        margin: 0;
+    }
+    .main-nav li a {
+        color: whitesmoke;
+    }
+    .main-nav li:first-child {
+        padding-top: 1rem;
+    }
+    .burger {
+        display: block;
+        z-index: 7;
+    }
+    .logo {
+        height: 70px;
+    }
+    .main-nav li a {
+        font-size: 85%;
+    }
+    .hero-text-box {
+        width: 520px;
+    }
+    .features_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 100%;
+    }
+    .box~.box {
+        margin-bottom: 1rem;
+    }
+    .box h3 {
+        font-size: 120%;
+        margin-bottom: 0.5rem;
+    }
+    .app-screen {
+        width: 60%;
+    }
+    .wrap_steps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrap_steps>div:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+    .steps-box {
+        padding-left: 0%;
+        width: 75%;
+    }
+    .container:nth-child(2) .inner span {
+        top: 1px;
+    }
+    #ourcities .row {
+        max-width: 540px;
+    }
+    .card {
+        width: 215px;
+        height: 287px;
+    }
+    .details p {
+        font-size: 100%;
+    }
+    .row .Choose-targets {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Choose-targets .goal {
+        width: 56%;
+    }
+    .Choose-targets .clicked {
+        width: 59% !important;
+    }
+    .Choose-targets .goal:not(:first-of-type) {
+        margin-top: 1rem;
+    }
+    .Choose-targets .goal:last-child h3 {
+        font-size: 130%;
+    }
+    .Choose-targets .goal span, .Choose-targets .goal p {
+        font-size: 1.1rem;
+    }
+    .Choose-targets .goal .button-choose {
+        width: 40%;
+    }
+    .choice-content .item-description {
+        font-size: 100%
+    }
+    .choice-container .choice-content:last-child {
+        height: 8rem;
+    }
+    .sales-container {
+        flex-direction: column;
+        max-width: 450px;
+    }
+    .wrap-aside {
+        width: 100%;
+        background-color: #f8f8f8;
+        position: unset;
+    }
+    .wrap-aside .sales-aside {
+        position: unset;
+        transform: none;
+    }
+    .sales-main-content {
+        width: 100%;
+    }
+    .sales-main-content h3 {
+        padding: 0.2rem 0;
+        font-size: 1rem;
+    }
+    .sales-aside-item {
+        margin-bottom: 0.7rem;
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+    .sales-aside-item:first-child {
+        margin-top: 0.2rem;
+    }
+    .sales-icons {
+        padding: 0.5rem 0;
+    }
+    footer>div:nth-child(3) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    footer>div:nth-child(3) p {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:550px) {
+    .main-nav li {
+        text-align: center;
+    }
+    .row {
+        max-width: 400px;
+    }
+    nav.row {
+        min-height: unset;
+    }
+    .hero-text-box {
+        width: 400px;
+    }
+    html {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 175%;
+    }
+    #How {
+        font-size: 131%;
+    }
+    .app-screen {
+        width: 80%;
+    }
+    .container .inner {
+        clip-path: circle(11% at 10.5% 28%);
+    }
+    .container .inner span {
+        left: 5%;
+    }
+    .container:nth-child(2) .inner span {
+        left: 5%;
+        top: 5px;
+    }
+    #ourcities .row h2 {
+        font-size: 134%;
+    }
+    .Cities-content h3 {
+        font-size: 130%;
+    }
+    .wrap_cities .Cities-content {
+        width: 100%;
+    }
+    .Cities_item {
+        width: 100%;
+    }
+    #ourcities .row {
+        max-width: 350px;
+    }
+    .container:nth-child(2) .inner p {
+        font-size: 100%;
+    }
+    section.reviews .row h2 {
+        font-size: 138%;
+    }
+    .Choose-targets .goal {
+        width: 87%;
+    }
+    .Choose-targets .clicked {
+        width: 89% !important;
+    }
+    .choice-container .choice-content .pumba {
+        left: 0;
+        bottom: 3%;
+    }
+    .choice-container .choice-content {
+        width: 50%;
+    }
+    .choice-content .item-description {
+        font-size: 97%;
+    }
+    .choice-container .choice-content img {
+        width: 95%;
+    }
+    .choice-container .choice-content .choice-icons i:last-of-type {
+        margin-left: 0;
+    }
+    .footer_links {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:430px) {
+    .main-nav {
+        width: unset;
+    }
+    .main-nav li {
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .hero-text-box {
+        width: 310px;
+    }
+    html {
+        font-size: 16px;
+    }
+    .row {
+        max-width: 310px;
+    }
+    #ourcities .row {
+        max-width: 280px;
+    }
+    .section-sales .sales-container {
+        max-width: 280px;
+    }
+    .details h3 {
+        font-size: 100%
+    }
+    .details p {
+        font-size: 80%;
+    }
+    .card {
+        width: 150px;
+        height: 200px;
+    }
+    .card:nth-child(2) .details h3 {
+        font-size: 90%;
+    }
+}
